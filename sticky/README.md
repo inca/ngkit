@@ -16,6 +16,7 @@ and for its parent.
   <main>
   </main>
 </div>
+```
 
 See `sticky.css` for example stylesheet.
 

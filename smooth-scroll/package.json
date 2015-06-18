@@ -1,8 +1,8 @@
 {
-  "name": "ngkit.smoothScroll",
-  "version": "0.0.0",
+  "name": "ngkit.smooth-scroll",
+  "version": "0.0.1",
   "description": "Anchor links smooth scroll for Angular",
-  "main": "smoothScroll.js",
+  "main": "smooth-scroll.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:inca/ngkit"

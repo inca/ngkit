@@ -11,7 +11,7 @@ and for its parent.
 ```html
 <div class="has-sticky">
   <aside class="sidenav sticky"
-    ui-sticky>
+         ui-sticky>
   </aside>
   <main>
   </main>

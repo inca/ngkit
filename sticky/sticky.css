@@ -1,0 +1,75 @@
+/**
+ * Sticky parent and sticky element must provide relative positioning.
+ */
+
+.has-sticky {
+  position: relative;
+}
+
+.sticky {
+  position: relative;
+}
+
+/**
+ * In the "fixed" position the element is given the `sticky-fixed` class
+ * and the calculated `left` (relative to screen)
+ * so that it could take advantage of `position: fixed`.
+ */
+
+.sticky-fixed {
+  position: fixed;
+  top: 0;
+}
+
+/**
+ * In the bottom position sticky element is given the `sticky-bottom` class
+ * and the calculated `left` (relative to parent element)
+ * so that it could be positioned absolutely.
+ */
+
+.sticky-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+/**
+ * Additionally you can provide responsive stylesheets to "switch off"
+ * sticky at various screen resolutions.
+ */
+
+@media (min-width: 481px) {
+
+  .sticky-m {
+    position: relative;
+  }
+
+  .sticky-m.sticky-fixed {
+    position: fixed;
+    top: 0;
+  }
+
+  .sticky-m.sticky-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .sticky-l {
+    position: relative;
+  }
+
+  .sticky-l.sticky-fixed {
+    position: fixed;
+    top: 0;
+  }
+
+  .sticky-l.sticky-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+
+}
+

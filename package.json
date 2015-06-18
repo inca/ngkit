@@ -1,0 +1,30 @@
+{
+  "name": "ngkit",
+  "version": "0.0.0",
+  "description": "ngKit — opinionated Angular UI kit",
+  "devDependencies": {
+    "eslint": "*",
+    "pre-commit": "*"
+  },
+  "pre-commit": [ "test" ],
+  "scripts": {
+    "pretest": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inca/ngkit"
+  },
+  "keywords": [
+    "angular",
+    "ui",
+    "kit",
+    "tools",
+    "components"
+  ],
+  "author": "Boris Okunskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inca/ngkit/issues"
+  },
+  "homepage": "https://github.com/inca/ngkit"
+}

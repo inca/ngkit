@@ -1,0 +1,24 @@
+{
+  "name": "ngkit.sticky",
+  "version": "0.0.0",
+  "description": "Sticky elements (position:sticky polyfill) for Angular",
+  "main": "sticky.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:inca/ngkit"
+  },
+  "keywords": [
+    "angular",
+    "ui",
+    "sticky"
+  ],
+  "author": "Boris Okunskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inca/ngkit/issues"
+  },
+  "homepage": "https://github.com/inca/ngkit"
+}

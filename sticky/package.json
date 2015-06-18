@@ -1,11 +1,8 @@
 {
   "name": "ngkit.sticky",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Sticky elements (position:sticky polyfill) for Angular",
   "main": "sticky.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:inca/ngkit"

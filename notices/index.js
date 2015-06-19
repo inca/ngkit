@@ -61,16 +61,27 @@ module.exports = function (app) {
     function (notices) {
       return {
         restrict: 'EA',
+        scope: true,
         template: '<div ng-class="[\'notice\', notice.kind]" ' +
           'ng-repeat="notice in notices.queue">{{notice.text}}</div>',
-        link: function ($scope) {
-          var $wnd = angular.element(window);
-          $wnd.on('keyup', function (ev) {
+        link: function ($scope, $element) {
+
+          $scope.notices = notices;
+
+          function onKeyUp(ev) {
             if (ev.keyCode != 27)
               return;
             notices.clear();
             $scope.$digest();
+          }
+
+          var $wnd = angular.element(window);
+          $wnd.on('keyup', onKeyUp);
+
+          $element.on('$destroy', function () {
+            $wnd.off('keyup', onKeyUp);
           });
+
         }
       };
     }

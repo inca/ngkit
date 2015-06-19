@@ -1,0 +1,31 @@
+.magnifier {
+  position: absolute;
+  z-index: 1000;
+
+  width: 0;
+  height: 0;
+
+  border-radius: 9999px;
+  pointer-events: none;
+
+  background-color: #fff;
+  background-repeat: no-repeat;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25),
+  0 4px 0 rgba(255, 255, 255, .25) inset;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s opacity;
+
+}
+
+.magnifier.active {
+  width: 160px;
+  height: 160px;
+  visibility: visible;
+  opacity: 1;
+}
+
+img[ui-magnify] {
+  cursor: none;
+}

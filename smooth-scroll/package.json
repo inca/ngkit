@@ -1,6 +1,6 @@
 {
   "name": "ngkit.smooth-scroll",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Anchor links smooth scroll for Angular",
   "main": "smooth-scroll.js",
   "repository": {
@@ -10,7 +10,7 @@
   "keywords": [
     "angular",
     "ui",
-    "sticky"
+    "scroll"
   ],
   "author": "Boris Okunskiy",
   "license": "ISC",

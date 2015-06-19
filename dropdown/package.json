@@ -1,7 +1,7 @@
 {
-  "name": "ngkit.notices",
-  "version": "0.0.3",
-  "description": "Disposable messages/notices for Angular",
+  "name": "ngkit.dropdown",
+  "version": "0.0.2",
+  "description": "Dropdown menu for Angular",
   "main": "notices.js",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   "keywords": [
     "angular",
     "ui",
-    "notices"
+    "dropdown"
   ],
   "author": "Boris Okunskiy",
   "license": "ISC",

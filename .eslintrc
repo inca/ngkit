@@ -1,7 +1,10 @@
 {
   "env": {
     "node": true,
-    "browser": false
+    "browser": true
+  },
+  "globals": {
+    "angular": false
   },
   "rules": {
     "no-mixed-requires": 0,
@@ -31,6 +34,7 @@
     }],
     "max-nested-callbacks": [2, 4],
     "no-lonely-if": 2,
-    "space-in-parens": [2, "never"]
+    "space-in-parens": [2, "never"],
+    "strict": 0
   }
 }

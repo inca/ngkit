@@ -40,7 +40,7 @@ module.exports = function (app) {
           return angular.element(el);
         }
 
-        var url = $scope.$eval($attrs.uiZoom)
+        var url = $scope.$eval($attrs.uiZoom) || $attrs.src
           , $overlay = getZoomOverlay()
           , img = new Image();
 

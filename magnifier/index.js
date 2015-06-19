@@ -16,7 +16,7 @@ module.exports = function (app) {
           return angular.element(el);
         }
 
-        var url = $scope.$eval($attrs.uiMagnifier)
+        var url = $scope.$eval($attrs.uiMagnifier) || $attrs.src
           , $glass = getGlass()
           , img = new Image();
 

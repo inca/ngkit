@@ -1,6 +1,6 @@
 {
   "name": "ngkit.ext-links",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Externalize links for Angular",
   "repository": {
     "type": "git",

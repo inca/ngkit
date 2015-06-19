@@ -1,6 +1,6 @@
 {
   "name": "ngkit.sticky",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sticky elements (position:sticky polyfill) for Angular",
   "repository": {
     "type": "git",

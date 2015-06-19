@@ -1,6 +1,6 @@
 {
   "name": "ngkit.notices",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Disposable messages/notices for Angular",
   "repository": {
     "type": "git",

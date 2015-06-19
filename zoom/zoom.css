@@ -1,0 +1,48 @@
+.zoom-overlay {
+  position: absolute;
+  z-index: 0;
+
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+
+  cursor: zoom-out;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s opacity;
+
+}
+
+.zoom-overlay.active {
+  position: fixed;
+  z-index: 500;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  width: auto;
+  height: auto;
+
+  background: rgba(0,0,0,.25);
+
+  visibility: visible;
+  opacity: 1;
+}
+
+.zoom-container {
+  position: absolute;
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  transition: .3s transform ease-in-out;
+}
+
+[ui-zoom] {
+  cursor: zoom-in;
+}

@@ -23,6 +23,18 @@ See `sticky.css` for example stylesheet.
 You can additionally set yOffset (e.g. `ui-sticky="48"`),
 this is handy if you have another fixed element (like fixed header).
 
+## Usage
+
+Add directive to your Angular module directly:
+
+```js
+var app = angular.module('myApp', []);
+
+require('ngkit.sticky')(app);
+```
+
+Note: ngKit requires Browserify.
+
 ## License
 
 ISC / Boris Okunskiy

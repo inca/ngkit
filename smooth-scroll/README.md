@@ -23,6 +23,18 @@ from current position to target element top position.
 
 No additional stylesheets required.
 
+## Usage
+
+Add directive to your Angular module directly:
+
+```js
+var app = angular.module('myApp', []);
+
+require('ngkit.smooth-scroll')(app);
+```
+
+Note: ngKit requires Browserify.
+
 ## License
 
 ISC / Boris Okunskiy

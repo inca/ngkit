@@ -1,15 +1,14 @@
 {
-  "name": "ngkit.sticky",
-  "version": "0.0.3",
-  "description": "Sticky elements (position:sticky polyfill) for Angular",
+  "name": "ngkit.ext-links",
+  "version": "0.0.1",
+  "description": "Externalize links for Angular",
   "repository": {
     "type": "git",
     "url": "git@github.com:inca/ngkit"
   },
   "keywords": [
     "angular",
-    "ui",
-    "sticky"
+    "ui"
   ],
   "author": "Boris Okunskiy",
   "license": "ISC",

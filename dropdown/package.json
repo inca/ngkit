@@ -2,7 +2,6 @@
   "name": "ngkit.dropdown",
   "version": "0.0.3",
   "description": "Dropdown menu for Angular",
-  "main": "dropdown.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:inca/ngkit"

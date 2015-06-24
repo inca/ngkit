@@ -1,0 +1,19 @@
+{
+  "name": "ngkit.hl",
+  "version": "0.0.2",
+  "description": "Context highlighting for Angular",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:inca/ngkit"
+  },
+  "keywords": [
+    "angular",
+    "ui"
+  ],
+  "author": "Boris Okunskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inca/ngkit/issues"
+  },
+  "homepage": "https://github.com/inca/ngkit"
+}

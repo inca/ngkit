@@ -5,13 +5,14 @@ module.exports = function (app) {
     return {
       restrict: 'A',
       scope: true,
-      controller: function () {
-      },
       controllerAs: 'sortable',
-      link: function ($scope, $element, $attrs) {
-        $scope.sortable._expr = $attrs.uiSortable;
-        $scope.sortable._update = $attrs.uiSortableUpdate;
-      }
+      controller: ['$attrs',
+        function ($attrs) {
+          var ctrl = this;
+          ctrl._expr = $attrs.uiSortable;
+          ctrl._update = $attrs.uiSortableUpdate;
+        }
+      ]
     };
 
   });

@@ -1,6 +1,6 @@
 {
   "name": "ngkit.sortable",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Pure HTML5 sortable for Angular",
   "repository": {
     "type": "git",
